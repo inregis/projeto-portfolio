@@ -1,0 +1,14 @@
+/* 
+  Variáveis para cores:
+  --fundo-principal
+  --texto
+  --texto-inverso
+  --destaque
+  --destaque-inverso
+  --fundo-card
+*/
+body {
+  background-color: rgb(168, 221, 245);
+  color: rgb(19, 8, 173);
+  font-family: 'Arial', sans-serif;
+}
