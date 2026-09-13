@@ -246,11 +246,17 @@ article h2 {
 }
 
 #projeto-container .foto {
+  display: block;
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
   overflow: hidden;
   border-radius: 8px;
+}
+
+#projeto-container .projeto > a {
+  display: block;
+  width: 100%;
 }
 
 
@@ -306,10 +312,12 @@ footer p {
     max-width: 80%;
   }
 
+  #projeto-container .projeto > a {
+    flex: 0 0 20%;
+  }
+
   #projeto-container .foto {
     aspect-ratio: 1/1;
-    max-width: 20%;
-    max-height: 200%;
   }
 
 }
